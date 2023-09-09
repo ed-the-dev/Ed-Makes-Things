@@ -1,0 +1,15 @@
+{{ define "main" }}
+  <h1>Recipes</h1>
+
+  <div>
+    Some chip structure here to sort items? Porque no?
+  </div>
+
+  <ul>
+  {{ range .Pages }}
+    <li>
+      <a href="{{ .Permalink }}">{{ .Title }}</a> - {{ .Date.Format "January 2, 2006" }}
+    </li>
+  {{ end }}
+  </ul>
+{{ end }}

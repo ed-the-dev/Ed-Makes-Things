@@ -1,0 +1,19 @@
+{{ define "main" }}
+ <h1>{{ .Params.Title }}</h1>
+ <p>{{ .Date.Format "January 2, 2006" }}</p>
+
+ <div>
+    Serves {{ .Params.serves }}
+ </div>
+
+ <div>
+    Glass type: {{ .Params.glass_type }}
+ </div>
+
+ <div>
+    Time to make: {{ .Params.time_to_make }}
+ </div>
+ 
+
+ {{ .Content }}
+{{ end }}

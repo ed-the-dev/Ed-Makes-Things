@@ -2,7 +2,8 @@
 title: About
 hide_footer: true
 ---
-Content about RWP.
+
+A website to display my personal projects. And some other stuff maybe.
 
 ### These are my favorite vacation spots
 

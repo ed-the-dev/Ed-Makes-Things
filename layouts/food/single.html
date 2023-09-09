@@ -1,0 +1,22 @@
+{{ define "main" }}
+ <h1>{{ .Params.Title }}</h1>
+ <p>{{ .Date.Format "January 2, 2006" }}</p>
+
+ <div>
+    Serves x many
+ </div>
+
+ <div>
+    Prep Time: 
+ </div>
+
+ <div>
+    Cooking Time: 
+ </div>
+ 
+ <div>
+    Print: (Weazy Print)
+ </div>
+
+ {{ .Content }}
+{{ end }}
