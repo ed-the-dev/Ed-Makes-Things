@@ -1,4 +1,4 @@
 ---
 title: Home
 ---
-RWP index content.
+Ed Makes Things! &#128512;
